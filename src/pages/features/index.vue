@@ -1,12 +1,12 @@
 <template>
 	<h1 class="font-semibold text-2xl my-5">Features</h1>
 	<li><router-link class="jp-link" to="/features/reveal">Reveal</router-link></li>
-	<li><router-link class="jp-link" to="/features/button">Button</router-link></li>
+	<li><router-link class="jp-link" to="/features/magnet-button">Magnet Button</router-link></li>
 </template>
 
 <script></script>
 
-<style lang="postcss">
+<style lang="postcss" scoped>
 	.jp-link {
 		position: relative;
 		--distance: -0.15rem;

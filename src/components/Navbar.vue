@@ -1,5 +1,5 @@
 <template>
-	<div class="flex gap-5 my-5">
+	<div class="flex gap-5 my-5 text-gray-400">
 		<router-link class="nav-link" to="/">Home</router-link>
 		<router-link class="nav-link" to="/features">Features</router-link>
 	</div>
@@ -9,8 +9,8 @@
 	export default {}
 </script>
 
-<style lang="postcss">
+<style lang="postcss" scoped>
 	.nav-link {
-		@apply hover:text-yellow-600 transition-colors duration-150;
+		@apply hover:text-black transition-colors duration-150;
 	}
 </style>

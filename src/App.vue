@@ -1,8 +1,6 @@
 <template>
-	<div class="mx-5">
-		<Navbar />
-		<router-view />
-	</div>
+	<Navbar class="absolute bottom-0 left-0 transform -rotate-90 origin-top-left translate-x-5" />
+	<router-view />
 </template>
 
 <script setup>

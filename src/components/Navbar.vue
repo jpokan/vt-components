@@ -1,5 +1,5 @@
 <template>
-	<div class="flex gap-5 my-5 text-gray-400">
+	<div class="flex gap-5 text-gray-400">
 		<router-link class="nav-link" to="/">Home</router-link>
 		<router-link class="nav-link" to="/features">Features</router-link>
 	</div>

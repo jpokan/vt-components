@@ -1,6 +1,6 @@
 <template>
 	<button
-		class="text-gray-900 px-8 py-4 border-gray-500 border-2 bg-gray-200 outline-none focus:outline-none"
+		class="text-gray-900 px-8 py-4 border-gray-900 border outline-none focus:outline-none"
 		@mouseenter="renderEnter($event)"
 		@mousemove="renderMagnet($event)"
 		@mouseleave="renderLeave($event)"
@@ -31,7 +31,7 @@
 			},
 			amount: {
 				type: Number,
-				default: 0.18
+				default: 0.65
 			},
 			startSpeed: {
 				type: Number,

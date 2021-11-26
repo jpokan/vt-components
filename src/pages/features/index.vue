@@ -1,7 +1,9 @@
 <template>
-	<h1 class="font-semibold text-2xl my-5">Features</h1>
-	<li><router-link class="jp-link" to="/features/reveal">Reveal</router-link></li>
-	<li><router-link class="jp-link" to="/features/magnet-button">Magnet Button</router-link></li>
+	<h1 class="font-semibold text-2xl my-5">Components</h1>
+	<li><router-link class="jp-link" to="/features/components/reveal">Reveal</router-link></li>
+	<li><router-link class="jp-link" to="/features/components/magnet-button">Magnet Button</router-link></li>
+	<h1 class="font-semibold text-2xl my-5">Layouts</h1>
+	<li><router-link class="jp-link" to="/features/layouts/focus">Focus</router-link></li>
 </template>
 
 <script></script>
@@ -25,8 +27,8 @@
 		position: absolute;
 		left: 0;
 		right: 0;
-		bottom: var(--distance);
 		clip-path: inset(0 100% 0 0);
+		bottom: var(--distance);
 		border-bottom: var(--thickness) solid black;
 		transition: all 0.3s;
 	}
@@ -34,8 +36,8 @@
 		position: absolute;
 		left: 0;
 		right: 0;
-		bottom: var(--distance);
 		clip-path: inset(0);
+		bottom: var(--distance);
 		border-bottom: var(--thickness) solid black;
 	}
 </style>
